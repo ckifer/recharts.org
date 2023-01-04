@@ -66,7 +66,7 @@ export default {
         "<PolarRadiusAxis domain={['dataMin', 'dataMax']} />",
         "<PolarRadiusAxis domain={[0, 'dataMax']} />",
         "<PolarRadiusAxis domain={['auto', 'auto']} />",
-        "<PolarRadiusAxis domain={([dataMin, dataMax]) => { const absMax = Math.max(Math.abs(dataMin), Math.abs(dataMax)); return [-absMax, absMax]; }} />",
+        '<PolarRadiusAxis domain={([dataMin, dataMax]) => { const absMax = Math.max(Math.abs(dataMin), Math.abs(dataMax)); return [-absMax, absMax]; }} />',
       ],
     },
     {
